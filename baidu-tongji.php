@@ -26,7 +26,7 @@ class BaiduTongjiPlugin extends Plugin
             <script>
               var _hmt = _hmt || [];
               (function() {
-              var hm = document.createElement("script");
+              var hm = document.createElement('script');
               hm.src = '//hm.baidu.com/hm.js?{trackingID}';
               var s = document.getElementsByTagName('script')[0];
               s.parentNode.insertBefore(hm, s);
