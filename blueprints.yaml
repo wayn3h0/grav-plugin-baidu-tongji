@@ -1,0 +1,32 @@
+name: Baidu Tongji
+version: 1.0.0
+description: "Baidu Tongji plugin lets you easyly embed the tracking code to the Grav website."
+icon: cog
+author:
+  name: Wayne Ho
+  email: hi@wayn3h0.com
+  url: http://wayn3h0.com
+homepage: https://github.com/wayn3h0/grav-plugin-baidu-tongji
+keywords: baidu, plugin, tongji, tracking, analytics
+bugs: https://github.com/wayn3h0/grav-plugin-baidu-tongji/issues
+license: Apache License 2.0
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin Status
+      hightlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    trackingID:
+      type: text
+      size: medium
+      label: Tracking ID
+      help: Baidu Tongji tracking ID
