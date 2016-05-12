@@ -23,7 +23,6 @@ class BaiduTongjiPlugin extends Plugin
         $trackingID = trim($this->config->get('plugins.baidu-tongji.trackingID'));
         if ($trackingID) {
             $init = "
-            <script>
               var _hmt = _hmt || [];
               (function() {
               var hm = document.createElement('script');
@@ -31,7 +30,6 @@ class BaiduTongjiPlugin extends Plugin
               var s = document.getElementsByTagName('script')[0];
               s.parentNode.insertBefore(hm, s);
               })();
-            </script>
             ";
             $this->grav['assets']->addInlineJs($init);
         }
