@@ -25,6 +25,12 @@ form:
       validate:
         type: bool
 
+    position:
+      type: text
+      size: medium
+      label: Script Position
+      help: Position Of Scripts To Add, Default Is Head
+
     trackingID:
       type: text
       size: medium
