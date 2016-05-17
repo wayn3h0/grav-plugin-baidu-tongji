@@ -1,2 +1,3 @@
 enabled: true               # enable/disable the plugin
+position : 'head'           # position of scripts to add 
 trackingID: ''              # tracking ID
